@@ -1,0 +1,21 @@
+body{ text-align: center;        }                /*----------------------------*/             
+.button{
+	border-radius:5px;
+	background:#ffffff;
+}
+.style1 table{
+	border:1px solid blue;
+	border-radius: 5px;
+	padding:30px;
+	
+}
+
+.body{
+	border:1px solid blue;
+	padding:30px;
+	
+}
+.style2{
+	border:1px solid blue;
+	border-radius: 5px;
+}

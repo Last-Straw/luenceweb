@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexCreateServlet</servlet-name>
+    <servlet-class>lucenePackage.indexCreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchServlet</servlet-name>
+    <servlet-class>lucenePackage.searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>firstPageServlet</servlet-name>
+    <servlet-class>lucenePackage.firstPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>prevPageServlet</servlet-name>
+    <servlet-class>lucenePackage.prevPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>nextPageServlet</servlet-name>
+    <servlet-class>lucenePackage.nextPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lastPageServlet</servlet-name>
+    <servlet-class>lucenePackage.lastPageServlet</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>indexCreateServlet</servlet-name>
+    <url-pattern>/lucenePackage/indexCreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchServlet</servlet-name>
+    <url-pattern>/lucenePackage/searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>firstPageServlet</servlet-name>
+    <url-pattern>/lucenePackage/firstPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>prevPageServlet</servlet-name>
+    <url-pattern>/lucenePackage/prevPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>nextPageServlet</servlet-name>
+    <url-pattern>/lucenePackage/nextPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lastPageServlet</servlet-name>
+    <url-pattern>/lucenePackage/lastPageServlet</url-pattern>
+  </servlet-mapping>	
+
+
+
+
+
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
